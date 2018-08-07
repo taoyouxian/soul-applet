@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.guide-img{
+  margin-top: 50%; 
+  width: 300rpx;
+  height: 300rpx;
+}
+.guide-text{
+  margin-top:350rpx; 
+  font-size:38rpx;
+  color: #fff; 
+}
+page{
+    height: 100%;
+    background-color: #383838;
+}

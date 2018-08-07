@@ -1,0 +1,11 @@
+<view class = "container">
+  <text class='text-title'>灵魂链</text>
+  <view class='button-container'>
+      <view class = "button-border" bindtap="enterPoster">
+      <text class='button-text'>测测你的前世今生</text>
+    </view>
+    <view class = "button-border" bindtap="enterGuide">
+      <text class='button-text'>灵魂上链</text>
+    </view>
+  </view>
+</view>

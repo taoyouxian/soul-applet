@@ -1,0 +1,19 @@
+<view class = "container">
+  <view class='text-container'>
+    <text class='text-title-line'>—— </text>
+    <text class='text-title'> 序曲 </text>
+    <text class='text-title-line'>——</text>
+  </view>
+  <text class ="text-info">是否</text>
+  <text class ="text-info">有一些</text>
+  <text class ="text-info">话</text>
+  <text class ="text-info">一些人</text>
+  <text class ="text-info">一些事</text>
+  <text class ="text-info">慢慢就忘记了</text>
+  <text class ="text-info">这些人和事</text>
+  <text class ="text-info">就是我们的灵魂啊</text>
+  <text class ="text-info">证明这个世界我们来过</text>
+  <text class ="text-info">请记下吧</text>
+  <image class='arrow-down' bindtap='enterIndex' src="/images/icon/arrow-down.png"></image>
+   <text class ="text-bottom">上链吧！让灵魂不再孤独</text>
+</view>

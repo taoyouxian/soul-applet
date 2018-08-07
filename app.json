@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/posters/posters",
+    "pages/guide/guide",
+    "pages/index/index",
+    "pages/candy/candy"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#383838",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "灵魂链"
+  }
+}

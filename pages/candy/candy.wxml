@@ -1,0 +1,10 @@
+<view class='candy-num-container'>
+<image class='candy-num-img' src='../../images/avatar/candy-num.png'></image>
+<text class='candy-num'>520</text>
+</view>
+
+<view class = "container">
+  <image class='candy-img' bindtap='enterCandy' src='../../images/avatar/candy.png'></image>
+  <text class='candy-add'>获得糖果 +520</text>
+  <text class='candy-text'>领取你的糖果，这是神器哦！</text>
+</view>
