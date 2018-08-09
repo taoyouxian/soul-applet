@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -13,7 +13,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.2.2",
 	"appid": "wxa9efff7e52db69cc",
-	"projectname": "%E5%90%AF%E5%8A%A8",
+	"projectname": "Soul",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

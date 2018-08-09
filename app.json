@@ -3,7 +3,9 @@
     "pages/posters/posters",
     "pages/guide/guide",
     "pages/index/index",
-    "pages/candy/candy"
+    "pages/candy/candy",
+    "pages/testResult/testResult",
+    "pages/edit/edit"
   ],
   "window": {
     "navigationBarBackgroundColor": "#383838",

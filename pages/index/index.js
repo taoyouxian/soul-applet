@@ -1,5 +1,5 @@
 Page({
   enterGuide:function(event){
-        wx.redirectTo({url:"../guide/guide"});
+    wx.navigateTo({url:"../guide/guide"});
     }
 })

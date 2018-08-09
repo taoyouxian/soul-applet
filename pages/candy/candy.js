@@ -1,5 +1,5 @@
 Page({
-    enterPoster:function(event){
-        wx.redirectTo({url:"../posters/posters"});
+  enterEdit:function(event){
+    wx.navigateTo({url:"../edit/edit"});
     }
 })
