@@ -1,0 +1,17 @@
+<view class = "container">
+<block wx:for="{{[1, 2, 3, 4]}}">
+     <view class='list-container' bindtap='enterDetail'>
+    <image class='item-img' src='../../images/icon/baby.png'></image>
+    <view class='item-bg'>
+     <text class='item-title'>表白萌宠</text>
+     <text class='item-intro'>可爱萌宠帮你吐露心声！</text>
+     <view class='price-container'>  
+        <text class='now-price'>￥77</text>
+        <text class='old-price'>￥77</text>
+     </view>
+     <image class='shopping-car' src='../../images/icon/shopping-car.png'></image>
+    </view>
+  </view>
+  </block>
+ 
+</view>

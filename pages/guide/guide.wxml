@@ -1,4 +1,5 @@
 <view class = "container">
-  <image class='guide-img' bindtap='enterCandy' src='../../images/avatar/guide.png'></image>
+ <image class='bg' src='/images/icon/lighting.png'></image>
+  <image class='guide-img' bindtap='enterCandy' src='../../images/icon/baby.png'></image>
   <text class='guide-text'>这是你的灵魂向导皮皮</text>
 </view>

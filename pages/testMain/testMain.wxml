@@ -1,0 +1,31 @@
+<view class='candy-num-container'>
+<image class='candy-num-img' src='../../images/icon/candy-num.png'></image>
+<text class='candy-num'>520</text>
+</view>
+
+<view class = "container">
+ <text class='question-title'>下面那一段梦境让你最难忘？</text>
+ <view class='question-list'>
+  <block wx:for="{{[1, 2, 3]}}">
+    <text class='question-item' bindtap='enterTestResult'>金榜题名</text>
+  </block>
+ </view>
+
+
+</view>
+<view class='progress-view'>
+  <progress percent="30" color="#fff" activeColor="#000" />
+  <view class='num-list'>
+  <text class='progress-num' style='margin-left:140rpx;'>3</text>
+  <text class='progress-total'>10</text>
+  </view>
+</view>
+
+<text class='bottom-title'>往事再回首</text>
+
+<!-- <image class='progress-bar' src='/images/icon/process-bar.png'></image>
+  <image class="icon-tag" src='/images/icon/process-finished.png'></image>
+  <view class='num-list'>
+    <text class='progress-num' >1</text>
+    <text class='progress-total'>10</text>
+  </view> -->

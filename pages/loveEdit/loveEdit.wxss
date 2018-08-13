@@ -18,18 +18,24 @@
   align-items:center;
 }
 .label-img{
-  width: 60rpx;
-  height: 60rpx;
+  width: 54rpx;
+  height: 54rpx;
 }
 .label-text{
   margin-left: 20rpx;
-  padding:5rpx 10rpx;
-  border: 2rpx #dedede solid;
+  font-size: 32rpx;
+}
+.input-wechat{
+  width: 90%;
+  height: 52rpx;
+  border: 1rpx #fff solid;
+  margin: 15rpx auto;
+  color: #fff;
 }
 .button-border{
   position: absolute;
   margin-left: 5%;
-  margin-top:500rpx;
+  margin-top:400rpx;
   width: 90%;
   height: 90rpx;
   border: 2rpx #dedede solid;
@@ -39,7 +45,7 @@
 }
 .button-text{
   color: #fff;
-  font-size: 50rpx;
+  font-size: 48rpx;
   padding: 0 50rpx;
 }
 
@@ -76,5 +82,5 @@
 
 page{
     height: 100%;
-    background-color: #111111;
+     background-image: radial-gradient(rgb(253, 150, 179), #FF8E9C);
 }

@@ -3,7 +3,7 @@
 </view>
 
  <view class='label'>
- <image src='../../images/icon/label.png' class='label-img'></image>
+ <image src='../../images/icon/edit-tag.png' class='label-img'></image>
   <text class='label-text'>呐喊</text>
  </view>
 <view class = "button-border" bindtap="enterTestResult">

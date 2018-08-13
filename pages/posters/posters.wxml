@@ -1,9 +1,7 @@
 <view class = "container">
-  <view class='text-container'>
-    <text class='text-title-line'>—— </text>
-    <text class='text-title'> 序曲 </text>
-    <text class='text-title-line'>——</text>
-  </view>
+  <image class='bg' src='/images/icon/lighting.png'></image>
+  <image class='header-img' src='/images/icon/poster-header.png'></image>
+  <text class='text-title'> 序曲 </text>
   <text class ="text-info">是否</text>
   <text class ="text-info">有一些</text>
   <text class ="text-info">话</text>

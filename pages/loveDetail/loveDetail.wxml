@@ -1,0 +1,15 @@
+<view class = "container">
+ <image class='bg' src='/images/icon/lighting.png'></image>
+
+  <text class='guide-title'>表白萌宠</text>
+  <image class='guide-img' bindtap='enterCandy' src='../../images/icon/baby.png'></image>
+  <text class='guide-text'>表白恒久远
+  真爱永流传
+  我是你的表白萌宠
+  帮你表白上链，生成爱情区块
+  不可篡改，永久铭记！
+  </text>
+   <view class = "button-border" bindtap="enterEdit">
+      <text class='button-text'>购买</text>
+    </view>
+</view>

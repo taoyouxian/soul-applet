@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.guide-title{
+  margin-top:120rpx;
+  color: #fff;
+  font-size: 54rpx; 
+}
+.guide-img{
+  margin-top: 18%; 
+  width: 276rpx;
+  height: 250rpx;
+}
+
+.guide-text{
+  text-align: center;
+  margin-top:120rpx; 
+  font-size:38rpx;
+  color: #fff;
+  letter-spacing:5rpx;
+  line-height:55rpx;
+  font-family:"Microsoft YaHei";
+}
+
+
+.button-border{
+  width: 85%;
+  margin-top:60rpx;
+  height: 90rpx;
+  border: 2rpx #dedede solid;
+  text-align: center;
+  line-height: 90rpx;
+  border-radius: 5rpx;
+}
+.button-text{
+  color: #fff;
+  font-size: 40rpx;
+  padding: 0 50rpx;
+}
+page{
+    height: 100%;
+    background-image: radial-gradient(#FF8FAF, #FF8E9C);
+}
