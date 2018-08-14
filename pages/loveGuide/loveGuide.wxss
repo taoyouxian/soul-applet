@@ -8,12 +8,16 @@
   width: 276rpx;
   height: 250rpx;
 }
+
 .guide-text{
-  margin-top:350rpx; 
+  text-align: center;
+  margin-top:250rpx; 
   font-size:38rpx;
-  color: #fff; 
+  color: #fff;
+  letter-spacing:5rpx;
+  line-height:50rpx;
 }
 page{
     height: 100%;
-    background-image: radial-gradient(#425361, #111111);
+    background-image: radial-gradient(#FF8FAF, #FF8E9C);
 }

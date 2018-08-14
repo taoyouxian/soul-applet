@@ -1,0 +1,8 @@
+<view class = "container">
+ <image class='bg' src='/images/icon/lighting.png'></image>
+  <image class='guide-img' bindtap='enterList' src='../../images/icon/baby.png'></image>
+  <text class='guide-text'>七夕到了！
+  我们精心为你准备了表白神器
+  爱要大声说出来
+  </text>
+</view>

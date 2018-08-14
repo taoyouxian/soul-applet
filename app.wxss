@@ -2,3 +2,10 @@ text{
      font-family: Microsoft YaHei;
      font-size:24rpx;
 }
+
+.bg{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -100;
+}

@@ -21,8 +21,8 @@
 }
 .candy-img{
   margin-top: 50%; 
-  width: 218rpx;
-  height: 134rpx;
+  width: 228rpx;
+  height: 140rpx;
 }
 .candy-add{
   margin-top:150rpx;
@@ -36,5 +36,5 @@
 }
 page{
     height: 100%;
-    background-color: #383838;
+    background-image: radial-gradient(rgb(107, 73, 73), #111111);
 }

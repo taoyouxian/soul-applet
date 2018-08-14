@@ -1,9 +1,20 @@
 {
   "pages":[
     "pages/posters/posters",
+    
+    "pages/loveEdit/loveEdit",
+    
+    "pages/loveDetail/loveDetail",
+    
+    "pages/loveList/loveList",
+    
+    "pages/loveGuide/loveGuide",
+    
+    "pages/testMain/testMain",
+    "pages/edit/edit",
     "pages/guide/guide",
-    "pages/index/index",
-    "pages/candy/candy"
+    "pages/candy/candy",
+    "pages/index/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#383838",

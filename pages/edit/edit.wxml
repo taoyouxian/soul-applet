@@ -1,0 +1,11 @@
+<view class = "container">
+  <textarea class='edit-area' maxlength="-1" placeholder='不负生命，留下活过的印记...'></textarea>
+</view>
+
+ <view class='label'>
+ <image src='../../images/icon/edit-tag.png' class='label-img'></image>
+  <text class='label-text'>呐喊</text>
+ </view>
+<view class = "button-border" bindtap="enterTestResult">
+  <text class='button-text'>发    布</text>
+</view>

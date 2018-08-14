@@ -10,9 +10,24 @@
 }
 
 .button-container{
-  margin-top:300rpx;
+  margin-top:700rpx;
+}
+.bg-container{
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.bg-img{
+  position: absolute;
 }
 
+.menu-item{
+  position: absolute;
+  left: 165rpx;
+  top: 20rpx;
+  color: #fff;
+  font-size: 38rpx;
+  opacity: 0.7;
+}
 .button-border{
   margin-top:40rpx;
   height: 90rpx;
@@ -20,6 +35,15 @@
   text-align: center;
   line-height: 90rpx;
   border-radius: 5rpx;
+}
+.gochain{
+  width: 484rpx;
+  height: 90rpx;
+}
+.gotest{
+  margin-top: 30rpx;
+  width: 484rpx;
+  height: 90rpx;
 }
 .button-text{
   color: #fff;

@@ -1,0 +1,13 @@
+<view class = "container">
+  <textarea class='edit-area' maxlength="-1" placeholder-style="color:#f2f2f2;" placeholder='写下你要表白的话吧~'></textarea>
+</view>
+
+ <view class='label'>
+ <image src='../../images/icon/location.png' class='label-img'></image>
+  <text class='label-text'>TA的微信号：</text>
+ </view>
+ <input type='text' class='input-wechat'></input>
+ 
+<view class = "button-border" >
+  <text class='button-text'>确定</text>
+</view>

@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.edit-area{
+  margin-top: 30rpx;
+  width: 90%;
+  height: 350rpx;
+  color: #fff;
+}
+.label{
+  margin-top: 50rpx;
+  margin-left: 5%;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+}
+.label-img{
+  width: 60rpx;
+  height: 60rpx;
+}
+.label-text{
+  margin-left: 20rpx;
+  padding:5rpx 10rpx;
+  border: 2rpx #dedede solid;
+}
+.button-border{
+  position: absolute;
+  margin-left: 5%;
+  margin-top:500rpx;
+  width: 90%;
+  height: 90rpx;
+  border: 2rpx #dedede solid;
+  text-align: center;
+  line-height: 90rpx;
+  border-radius: 5rpx;
+}
+.button-text{
+  color: #fff;
+  font-size: 50rpx;
+  padding: 0 50rpx;
+}
+
+.text-container{
+  margin-top:100rpx;
+  display: flex;
+  width:100%;
+  justify-content:center;
+  align-items:center;/*垂直居中*/
+}
+.text-title{
+  margin:0 20rpx; 
+  font-size: 54rpx;
+  color: #fff;
+}
+.text-title-line{
+  color: #d8d8d8;
+  font-size: 60rpx;
+}
+.text-info{
+    margin-top:20rpx;
+    font-size: 32rpx;
+    color: #dedede;
+}
+.arrow-down{
+    width:120rpx;
+    height:120rpx;
+    margin: 30px 0;
+}
+.text-bottom{   
+  font-size:38rpx; 
+  color: #dedede;
+}
+
+page{
+    height: 100%;
+    background-color: #111111;
+}
