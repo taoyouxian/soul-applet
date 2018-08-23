@@ -1,0 +1,53 @@
+<view class = "container">
+<view class='ring-container'>
+
+ <view class="k-ring-2">
+    <view class="k-ball-holder">
+        <view class="k-ball1a k-ball-font" bindtap='enterGuide'>呐喊</view>
+        <view class="k-ball1b k-ball-font" bindtap='enterGuide'>倾诉</view>
+        <view class="k-ball1c k-ball-font" bindtap='enterGuide'>伤心</view>
+         <view class="k-ball1d k-ball-font" bindtap='enterGuide' >高兴</view>
+    </view>
+
+<view class="k-ring-3">
+    <view class="k-ball-holder3">
+        <view class="k-ball13a k-ball-font" bindtap='enterGuide'>表白</view>
+        <view class="k-ball13b k-ball-font" bindtap='enterGuide'>历史</view>
+        <view class="k-ball13c k-ball-font" bindtap='enterGuide'>感动</view>
+    </view>
+
+</view>
+
+<view class="k-ring-4">
+    <view class="k-ball-holder4">
+        <view class="k-ball14a k-ball-font" bindtap='enterGuide'>秘密</view>
+        <view class="k-ball14b k-ball-font" bindtap='enterGuide'>忧愁</view>
+        <view class="k-ball14c k-ball-font" bindtap='enterGuide'>烦恼</view>
+    </view>
+
+</view>
+
+<view class="k-ring-5">
+    <view class="k-ball-holder5">
+        <view class="k-ball15a k-ball-font" bindtap='enterGuide'>彷徨</view>
+        <view class="k-ball15b k-ball-font" bindtap='enterGuide'>悲伤</view>
+    </view>
+
+</view>
+
+<view class="k-ring-6">
+    <view class="k-ball-holder6">
+        <view class="k-ball16a k-ball-font" bindtap='enterGuide'>爱情</view>
+        
+    </view>
+</view>
+</view>
+</view>
+
+<view class='guide-view'>
+<image src='/images/icon/baby.png' class="guide-baby"></image>
+<text class='guide-sentance'>选择一个话题开始记录吧！</text>
+</view>
+ <text class='guide-text'>永久记录来自灵魂深处的你！</text>
+
+</view>
