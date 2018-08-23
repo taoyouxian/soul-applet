@@ -2,6 +2,8 @@
   "pages":[
     "pages/posters/posters",
     
+    "pages/selectTag/selectTag",
+    
     "pages/loveEdit/loveEdit",
     
     "pages/loveDetail/loveDetail",

@@ -6,6 +6,6 @@
  <image src='../../images/icon/edit-tag.png' class='label-img'></image>
   <text class='label-text'>呐喊</text>
  </view>
-<view class = "button-border" bindtap="enterTestResult">
+<view class = "button-border" bindtap="">
   <text class='button-text'>发    布</text>
 </view>

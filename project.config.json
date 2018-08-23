@@ -11,9 +11,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.2.2",
-	"appid": "wxa9efff7e52db69cc",
-	"projectname": "Soul",
+	"libVersion": "1.0.0",
+	"appid": "wx1141acbcc30b6c1d",
+	"projectname": "%E7%81%B5%E9%AD%82%E9%93%BE",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
