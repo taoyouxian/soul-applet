@@ -1,5 +1,5 @@
 Page({
     enterCandy:function(event){
-      wx.navigateTo({url:"../candy/candy"});
+      wx.navigateTo({ url:"../edit/edit"});
     }
 })
