@@ -1,13 +1,13 @@
 <form bindsubmit="formSubmit">
   <view class="container">
-    <textarea class='edit-area' maxlength="-1" placeholder='不负生命，留下活过的印记...'></textarea>
+    <textarea class='edit-area' maxlength="-1" name="data"  placeholder='不负生命，留下活过的印记...'></textarea>
   </view>
 
   <view class='label'>
     <image src='../../images/icon/edit-tag.png' class='label-img'></image>
-    <text class='label-text'>呐喊</text>
+    <text class='label-text'>{{tag}}</text>
   </view>
-  <view class="button-border" bindtap="enterTestResult">
-    <button style="width:90%; margin-top:10px" formType="submit" type='default' class='button-text'>发    布</button>
+  <view class="button-border">
+    <button formType="submit" type='default' class='button-text'>发    布</button>
   </view>
 </form>

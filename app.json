@@ -6,6 +6,8 @@
     
     "pages/selectTag/selectTag",
     
+    "pages/testResult/testResult",
+    
     "pages/loveEdit/loveEdit",
     
     "pages/loveDetail/loveDetail",

@@ -1,7 +1,14 @@
+const app = getApp()
 Page({
-  enterTestResult: function (event) {
-    wx.navigateTo({ url: "../testResult/testResult" });
+  onLoad: function () {
+
+    this.setData({
+      tag: app.globalData.tag
+    })
   },
+  // enterTestResult: function (event) {
+  //   wx.navigateTo({ url: "../testResult/testResult" });
+  // },
   formSubmit: function (e) {
     var data = e.detail.value.data;
     //     var tag = e.detail.value.tag;
@@ -17,23 +24,14 @@ Page({
       data: data
     }
     app.acHttpGet("acAddChain", app.globalData.chain, aHeader, "GET", function (aRes) {
+      wx.hideLoading();
       if (aRes.state == 1) {
-        wx.showToast({
-          title: '上链成功',
-          icon: 'succes',
-          duration: 1000,
-          mask: true
-        })
+        wx.showLoading({ title: '上链成功' });
       }
       else {
-        wx.showToast({
-          title: '上链失败',
-          icon: 'false',
-          duration: 1000,
-          mask: true
-        })
+        wx.showLoading({ title: '上链失败' });
       }
-      wx.hideLoading();
+      wx.navigateTo({ url: "../testResult/testResult" });
     })
   },
 })

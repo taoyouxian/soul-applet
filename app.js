@@ -79,7 +79,8 @@ App({
       g_currentMusicIndex:null,
       userInfo: null,
       openId: null,
-      chain: {}
+      chain: {},
+      tag:null
   },
   getUserInfo: function (cb) {
     if (this.globalData.userInfo) {
@@ -98,13 +99,16 @@ App({
    * 数据
    */
   Datas: {
-    reqUrl: "http://192.168.101.113:2018/",
+    // http://111.231.87.15:2018/
+    // http://192.168.101.113:2018/
+    // https://mini.merchain.cn/
+    reqUrl: "https://mini.merchain.cn/",
     /**
     * sql语句的路径
     */
     Path: {
-      addToken: "user/addToken.txt",
-      addUser: "user/addUser.txt",
+      addToken: "user/AddToken.txt",
+      addUser: "user/AddUser.txt",
       Token: "user/Token.txt",
     },
     /**

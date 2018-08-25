@@ -3,41 +3,41 @@
 
  <view class="k-ring-2">
     <view class="k-ball-holder">
-        <view class="k-ball1a k-ball-font" bindtap='enterGuide'>呐喊</view>
-        <view class="k-ball1b k-ball-font" bindtap='enterGuide'>倾诉</view>
-        <view class="k-ball1c k-ball-font" bindtap='enterGuide'>伤心</view>
-         <view class="k-ball1d k-ball-font" bindtap='enterGuide' >高兴</view>
+        <view class="k-ball1a k-ball-font" data-text="呐喊" catchtap='enterGuide'>呐喊</view>
+        <view class="k-ball1b k-ball-font" data-text="倾诉" catchtap='enterGuide'>倾诉</view>
+        <view class="k-ball1c k-ball-font" data-text="伤心"  catchtap='enterGuide'>伤心</view>
+         <view class="k-ball1d k-ball-font"  data-text="高兴"  catchtap='enterGuide' >高兴</view>
     </view>
 
 <view class="k-ring-3">
     <view class="k-ball-holder3">
-        <view class="k-ball13a k-ball-font" bindtap='enterGuide'>表白</view>
-        <view class="k-ball13b k-ball-font" bindtap='enterGuide'>历史</view>
-        <view class="k-ball13c k-ball-font" bindtap='enterGuide'>感动</view>
+        <view class="k-ball13a k-ball-font" data-text="表白"  catchtap='enterGuide'>表白</view>
+        <view class="k-ball13b k-ball-font" data-text="历史"  catchtap='enterGuide'>历史</view>
+        <view class="k-ball13c k-ball-font" data-text="感动"  catchtap='enterGuide'>感动</view>
     </view>
 
 </view>
 
 <view class="k-ring-4">
     <view class="k-ball-holder4">
-        <view class="k-ball14a k-ball-font" bindtap='enterGuide'>秘密</view>
-        <view class="k-ball14b k-ball-font" bindtap='enterGuide'>忧愁</view>
-        <view class="k-ball14c k-ball-font" bindtap='enterGuide'>烦恼</view>
+        <view class="k-ball14a k-ball-font" data-text="秘密"   catchtap='enterGuide'>秘密</view>
+        <view class="k-ball14b k-ball-font" data-text="忧愁"   catchtap='enterGuide'>忧愁</view>
+        <view class="k-ball14c k-ball-font" data-text="烦恼"   catchtap='enterGuide'>烦恼</view>
     </view>
 
 </view>
 
 <view class="k-ring-5">
     <view class="k-ball-holder5">
-        <view class="k-ball15a k-ball-font" bindtap='enterGuide'>彷徨</view>
-        <view class="k-ball15b k-ball-font" bindtap='enterGuide'>悲伤</view>
+        <view class="k-ball15a k-ball-font" data-text="彷徨"   catchtap='enterGuide'>彷徨</view>
+        <view class="k-ball15b k-ball-font" data-text="悲伤"   catchtap='enterGuide'>悲伤</view>
     </view>
 
 </view>
 
 <view class="k-ring-6">
     <view class="k-ball-holder6">
-        <view class="k-ball16a k-ball-font" bindtap='enterGuide'>爱情</view>
+        <view class="k-ball16a k-ball-font" data-text="爱情"   catchtap='enterGuide'>爱情</view>
         
     </view>
 </view>
